@@ -1,0 +1,125 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Első post",
+      "subtitle": "Ez az első post alcíme",
+      "short_text": "Ez egy rövid szöveg...",
+      "content": "Ez a post teljes tartalma...",
+      "image": "https://via.placeholder.com/150",
+      "category": "Tech"
+    },
+    {
+      "id": "2",
+      "title": "Második post",
+      "subtitle": "A második post alcíme",
+      "short_text": "Rövid szöveg a második posthoz...",
+      "content": "A második post teljes tartalma...",
+      "image": "https://via.placeholder.com/150",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "3",
+      "title": "Harmadik post",
+      "subtitle": "Alcím a harmadik posthoz",
+      "short_text": "Ez itt egy újabb rövid szöveg...",
+      "content": "Itt van a harmadik poszt teljes tartalma. Nagyon érdekes!",
+      "image": "https://via.placeholder.com/150",
+      "category": "Tech"
+    },
+    {
+      "id": "4",
+      "title": "Negyedik post",
+      "subtitle": "A negyedik post alcíme",
+      "short_text": "Ez a post a negyedik lesz...",
+      "content": "A negyedik poszt teljes tartalma. Ismét érdekes információk!",
+      "image": "https://via.placeholder.com/150",
+      "category": "Design"
+    },
+    {
+      "id": "5",
+      "title": "Ötödik post",
+      "subtitle": "Alcím az ötödik posthoz",
+      "short_text": "Ez egy rövid összefoglaló az ötödik postról.",
+      "content": "Ez az ötödik post teljes tartalma, melyben több információt találhatunk a design-ról.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "6",
+      "title": "Hatodik post",
+      "subtitle": "A hatodik post alcíme",
+      "short_text": "Ez a post is érdekes, szóval nézd meg!",
+      "content": "Ez a hatodik post, amelyben újabb információk és gondolatok találhatóak.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Tech"
+    },
+    {
+      "id": "7",
+      "title": "Hetedik post",
+      "subtitle": "Alcím a hetedik poszthoz",
+      "short_text": "A hetedik poszt bemutatja a legújabb trendeket...",
+      "content": "Ez a hetedik poszt, melyben a legújabb trendekről és innovációkról lesz szó.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Business"
+    },
+    {
+      "id": "8",
+      "title": "Nyolcadik post",
+      "subtitle": "A nyolcadik post alcíme",
+      "short_text": "Ez egy összefoglaló a legújabb üzleti ötletekről.",
+      "content": "A nyolcadik poszt a legújabb üzleti ötleteket és lehetőségeket mutatja be.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Business"
+    },
+    {
+      "id": "9",
+      "title": "Kilencedik post",
+      "subtitle": "Alcím a kilencedik poszthoz",
+      "short_text": "A kilencedik post a digitális marketingről szól...",
+      "content": "Ez a kilencedik post a digitális marketing legújabb trendjeit tartalmazza.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Marketing"
+    },
+    {
+      "id": "10",
+      "title": "Tizedik post",
+      "subtitle": "A tizedik post alcíme",
+      "short_text": "Ez a post a kreatív iparágakról szól...",
+      "content": "A tizedik post a kreatív iparágak jelenlegi helyzetéről és jövőjéről szól.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Design"
+    },
+    {
+      "id": "ac48",
+      "title": "asd",
+      "subtitle": "asd",
+      "short_text": "asdasd",
+      "content": "Longer asd containing so many more asd, you have never in your life seen this many asd. Like seriously so much asd its insane. Ready?\n\nasdasdasd\n\nSee? Its 3! 3 asd!!!\n\nI'm tired :(",
+      "image": "",
+      "category": "Lifestyle"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Tech"
+    },
+    {
+      "id": "2",
+      "name": "Lifestyle"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Business"
+    },
+    {
+      "id": "5",
+      "name": "Marketing"
+    }
+  ]
+}

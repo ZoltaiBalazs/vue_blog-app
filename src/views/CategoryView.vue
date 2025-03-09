@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-4">Legújabb Blogbejegyzések</h1>
+    <h1 class="mb-4">{{ categoryName }} Kategória</h1>
     <div class="row">
       <div v-for="post in posts" :key="post.id" class="col-md-4">
         <div class="card mb-4">
@@ -17,7 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
+import { useRoute } from 'vue-router'
 import axios from 'axios'
 
 interface Post {
@@ -25,22 +26,19 @@ interface Post {
   title: string
   subtitle: string
   image: string
+  category: string
 }
 
+const route = useRoute()
 const posts = ref<Post[]>([])
+const categoryName = computed(() => route.params.id as string)
 
 onMounted(async () => {
   try {
-    const response = await axios.get('http://localhost:3000/posts?_limit=6')
+    const response = await axios.get(`http://localhost:3000/posts?category=${categoryName.value}`)
     posts.value = response.data
   } catch (error) {
     console.error('Hiba a bejegyzések lekérésekor:', error)
   }
 })
 </script>
-
-<style>
-.row {
-  width: 600px;
-}
-</style>
